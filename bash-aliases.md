@@ -1,7 +1,7 @@
 ### Good Stuff
 
 ```bash
-# Inside .bashrc or .bash_profile
+# Inside .bash_profile or .bashrc
 shopt -s autocd
 
 
