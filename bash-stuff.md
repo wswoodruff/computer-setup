@@ -11,7 +11,6 @@ alias la="ls -al"
 # Grabbed from https://gist.github.com/u0d7i/01f78999feff1e2a8361
 # To disable vim automatic visual mode on mouse select,
 # add to ~/.vimrc
-
 source $VIMRUNTIME/defaults.vim
 set mouse-=a
 ```
