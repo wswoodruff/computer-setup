@@ -4,7 +4,7 @@
 # Lets you type a directory and move to it without needing to prepend with `cd `
 shopt -s autocd
 
-# Aliases
+# List dirs including hidden files and all perms info
 alias la="ls -al"
 
 ```
