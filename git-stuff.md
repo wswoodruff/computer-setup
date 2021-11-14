@@ -23,3 +23,18 @@ $ git config --global alias.s status
 $ git config --global alias.c commit
 $ git config --global alias.a "add --all ."
 ```
+
+### EZ Deploy keys
+
+In ~/.ssh/config — note the `IdentityFile` points to the private key
+```bash
+Host gh-with-deploy-key
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/deploy_key
+```
+
+Then in an existing application directory:
+```
+git remote set-url origin git@github.com-front:BigRoomStudios/nearpeer-frontend.git
+```
