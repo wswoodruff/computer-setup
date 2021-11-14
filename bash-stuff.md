@@ -1,8 +1,10 @@
-### Good Stuff
+### Good Stuff to include in .bash_profile or .bashrc
 
 ```bash
-# Include in .bash_profile or .bashrc
+# Lets you type a directory and move to it without needing to prepend with `cd `
 shopt -s autocd
 
+# Aliases
+alias la="ls -al"
 
 ```
