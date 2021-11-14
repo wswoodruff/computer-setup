@@ -36,5 +36,5 @@ Host gh-with-deploy-key
 
 Then in an existing application directory:
 ```
-git remote set-url origin git@github.com-front:BigRoomStudios/nearpeer-frontend.git
+git remote set-url origin git@gh-with-deploy-key:gh_username/repo-name.git
 ```
