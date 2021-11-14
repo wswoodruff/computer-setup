@@ -1,6 +1,6 @@
 ### List existing
 ```bash
-git config --list
+$ git config --list
 # Example output
 credential.helper=osxkeychain
 user.name=doggyjones
